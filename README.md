@@ -2,15 +2,15 @@
 Automatic way to increase skill cap of skills, with increasing values of that skill
 
 Requirements:
- 1. Python 3.9 or higher
+1. Python 3.9 or higher
 
 How to use:
- Run **python main.py**
- Write one or more path to the directory with .dbr skill-files (e.g. D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills)
-   No single or double quotes!
- 4. If you want use more than one path, the use ";" as delimiter
- 5. For example:
-     D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack2\skills
+1. Run ```python main.py```
+2. Write one or more path to the directory with .dbr skill-files (e.g. D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills)
+   - No single or double quotes!
+   - If you want use more than one path, the use ";" as delimiter
+   - For example:
+     - D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\MYMOD\database\records\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\MYMOD\database\records\xpack\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\MYMOD\database\records\xpack2\skills
  3. Write needed max level of skill, e.g 150
  4. Write needed ultimate level of skill (must be bigger or equal to max level), e.g. 200
  5. Write needed max level of masteries (must be bigger or equal to ultimate level), e.g. 500
@@ -25,12 +25,12 @@ How to use:
  1. Python 3.9 or higher
 
 Как использовать:
-1. Запустить скрипт командой **python main.py**
+1. Запустить скрипт командой ```python main.py```
 2. Указать один или несколько путей в директории с .dbr файлами навыков (пример: D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills)
-  2.1. Путь не должен содержать одиночных или двойных кавычек!
-  2.2. Если нужно указать несколько путей сразу, то используйте разделитель в виде точки-с-запятой ";"
-  2.2.1. Например:
-    D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack2\skills
+   - Путь не должен содержать одиночных или двойных кавычек!
+   - Если нужно указать несколько путей сразу, то используйте разделитель в виде точки-с-запятой ";"
+   - Например:
+     - D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack2\skills
 3. Впишите требуемый максимальный уровень навыка, например, 150
 4. Впишите требуемый ультимативный уровень навыка, например, 200 (должен быть больше или равен максимальному уровню)
 5. Впишите требуемый уровень мастерства, например, 500 (должен быть больше или равен ультимативному уровню)
