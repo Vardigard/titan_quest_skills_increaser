@@ -7,7 +7,7 @@ Requirements:
 How to use:
  1. Run **python main.py**
  2. Write one or more path to the directory with .dbr skill-files (e.g. D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills)
-   2.1. No single or double quotes!
+ 2.1. No single or double quotes!
    2.2. If you want use more than one path, the use ";" as delimiter
    2.2.1. For example:
      D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack\skills;D:\Mods\Titan Quest - Immortal Throne\Working\CustomMaps\Adventure_Hard\database\records\xpack2\skills
